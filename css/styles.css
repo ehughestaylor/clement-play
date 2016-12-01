@@ -1,0 +1,56 @@
+@font-face {
+  font-family: fancy;
+  src: url(../font/variane.ttf); }
+@font-face {
+  font-family: bitter;
+  src: url(../font/Bitter-Regular.ttf); }
+@font-face {
+  font-family: bitterbold;
+  src: url(../font/Bitter-Bold.ttf); }
+@font-face {
+  font-family: bitteritalic;
+  src: url(../font/Bitter-Italic.ttf); }
+* {
+  font-family: bitter; }
+
+.card {
+  position: relative;
+  overflow: hidden;
+  margin: 0rem 0 1rem 0;
+  background-color: #fff;
+  border-radius: 2px; }
+
+.row .col {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 2.75rem; }
+
+.nav-nav {
+  background-color: transparent;
+  box-shadow: none;
+  border: none; }
+
+#blue-card {
+  background-color: #4A90E2;
+  border-radius: 0px 0px 0px 20px;
+  /* top left, top right, bottom right, bottom left */ }
+
+#title-card {
+  background-color: transparent;
+  box-shadow: none;
+  border: none; }
+
+.blue-card-title {
+  font-family: fancy;
+  font-size: 6em;
+  text-align: left;
+  color: white;
+  text-shadow: 1px 1px 1px black; }
+
+@media screen and (max-width: 960px) {
+  .blue-card-title {
+    font-size: 4em; } }
+
+/*# sourceMappingURL=styles.css.map */
